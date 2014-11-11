@@ -1,6 +1,6 @@
- # README.md - Pritchard_Birch_2014
+# README.md - Pritchard_Birch_2014
 
-This directory contains supplementary information associated with the manuscript: Pritchard L & Birch PRJ "The zigzag model of plant-microbe interactions: is it time to move on?" (2014) *Molecular Plant Pathology*.
+This directory contains supplementary information associated with the manuscript: Pritchard L & Birch PRJ "The zigzag model of plant-microbe interactions: is it time to move on?" (2014) *Molecular Plant Pathology* **15**(9):865-870. [doi:10.1111/mpp.12210](http://dx.doi.org/10.1111/mpp.12210)
 
 ## Overview
 
