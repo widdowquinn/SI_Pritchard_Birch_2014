@@ -1,0 +1,49 @@
+%%% Attention: 
+%%% We provide only the LaTeX code of the Differential Equations. 
+%%% You need to include it in your TeX document. 
+%%% Some manual adjustments may be needed for too wide equations. 
+
+$$
+\begin{array}{ccl}
+\frac {\mathrm{d}\left( {{\mathrm{[PAMP]}} \, \cdot \, {V}_{\mathrm{Cell}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, {V}_{\mathrm{Cell}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("PAMP\;removal")}} \, \cdot \, {\mathrm{[PAMP]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, - \, \left(\left( {{\mathrm{k1}}_{\mathrm{("PAMP\;recognition")}} \, \cdot \, {\mathrm{[PRR]}} \, \cdot \, {\mathrm{[PAMP]}} \, - \, {\mathrm{k2}}_{\mathrm{("PAMP\;recognition")}} \, \cdot \, {\mathrm{["PRR*"]}} } \right)\right) } \\ 
+ && \\ 
+ \; && \;  { \, + \, \left( {{\mathrm{k1}}_{\mathrm{("PAMP\;production")}} \, \cdot \, {\mathrm{[Path]}} } \right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{[R]}} \, \cdot \, {V}_{\mathrm{Cell}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, {V}_{\mathrm{Cell}} \, \cdot \, \left(\left( {{\mathrm{k1}}_{\mathrm{("Effector\;recognition")}} \, \cdot \, {\mathrm{[R]}} \, \cdot \, {\mathrm{[E\_int]}} \, - \, {\mathrm{k2}}_{\mathrm{("Effector\;recognition")}} \, \cdot \, {\mathrm{["R*"]}} } \right)\right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{["R*"]}} \, \cdot \, {V}_{\mathrm{Cell}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, + \, {V}_{\mathrm{Cell}} \, \cdot \, \left(\left( {{\mathrm{k1}}_{\mathrm{("Effector\;recognition")}} \, \cdot \, {\mathrm{[R]}} \, \cdot \, {\mathrm{[E\_int]}} \, - \, {\mathrm{k2}}_{\mathrm{("Effector\;recognition")}} \, \cdot \, {\mathrm{["R*"]}} } \right)\right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{[E\_int]}} \, \cdot \, {V}_{\mathrm{Cell}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, {V}_{\mathrm{Cell}} \, \cdot \, \left(\left( {{\mathrm{k1}}_{\mathrm{("Effector\;recognition")}} \, \cdot \, {\mathrm{[R]}} \, \cdot \, {\mathrm{[E\_int]}} \, - \, {\mathrm{k2}}_{\mathrm{("Effector\;recognition")}} \, \cdot \, {\mathrm{["R*"]}} } \right)\right) } \\ 
+ && \\ 
+ \; && \;  { \, + \, \left(\frac {{V}_{\mathrm{("Effector\;translocation")}} \, \cdot \, {\mathrm{[E]}} }  { {{\mathrm{Km}}_{\mathrm{("Effector\;translocation")}} \, + \, {\mathrm{[E]}} }  \, + \, \frac {{\mathrm{Km}}_{\mathrm{("Effector\;translocation")}} \, \cdot \, {\mathrm{[Callose]}} } {{\mathrm{Ki}}_{\mathrm{("Effector\;translocation")}} } } \right) } \\ 
+ && \\ 
+ \; && \;  { \, - \, {V}_{\mathrm{Cell}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("E\_int\;removal")}} \, \cdot \, {\mathrm{[E\_int]}} } \right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{[Callose]}} \, \cdot \, {V}_{\mathrm{Cell}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, {V}_{\mathrm{Cell}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("Callose\;suppression")}} \, \cdot \, {\mathrm{[Callose]}} \, \cdot \, {\mathrm{[E\_int]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, - \, {V}_{\mathrm{Cell}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("Callose\;removal")}} \, \cdot \, {\mathrm{[Callose]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, + \, \left( {{\mathrm{k1}}_{\mathrm{("Callose\;production")}} \, \cdot \, {\mathrm{["PRR*"]}} } \right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{[Path]}} \, \cdot \, {V}_{\mathrm{Apoplast}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, \left( {{\mathrm{k1}}_{\mathrm{(PTI)}} \, \cdot \, {\mathrm{[Path]}} \, \cdot \, {\mathrm{[Callose]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, + \, {V}_{\mathrm{Apoplast}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("Pathogen\;arrival")}} \, \cdot \, {\mathrm{[Path\_bulk]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, - \, \left( {{\mathrm{k1}}_{\mathrm{(ETI)}} \, \cdot \, {\mathrm{[Path]}} \, \cdot \, {\mathrm{["R*"]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, - \, {V}_{\mathrm{Apoplast}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("Pathogen\;removal")}} \, \cdot \, {\mathrm{[Path]}} } \right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{["PRR*"]}} \, \cdot \, {V}_{\mathrm{Apoplast}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, + \, \left(\left( {{\mathrm{k1}}_{\mathrm{("PAMP\;recognition")}} \, \cdot \, {\mathrm{[PRR]}} \, \cdot \, {\mathrm{[PAMP]}} \, - \, {\mathrm{k2}}_{\mathrm{("PAMP\;recognition")}} \, \cdot \, {\mathrm{["PRR*"]}} } \right)\right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{[PRR]}} \, \cdot \, {V}_{\mathrm{Apoplast}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, \left(\left( {{\mathrm{k1}}_{\mathrm{("PAMP\;recognition")}} \, \cdot \, {\mathrm{[PRR]}} \, \cdot \, {\mathrm{[PAMP]}} \, - \, {\mathrm{k2}}_{\mathrm{("PAMP\;recognition")}} \, \cdot \, {\mathrm{["PRR*"]}} } \right)\right) } \\ 
+ && \\ 
+\frac {\mathrm{d}\left( {{\mathrm{[E]}} \, \cdot \, {V}_{\mathrm{Apoplast}} } \right) }  {\mathrm{d}{t} }  \; &=& \;  { \, - \, {V}_{\mathrm{Apoplast}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("Effector\;removal")}} \, \cdot \, {\mathrm{[E]}} } \right) } \\ 
+ && \\ 
+ \; && \;  { \, - \, \left(\frac {{V}_{\mathrm{("Effector\;translocation")}} \, \cdot \, {\mathrm{[E]}} }  { {{\mathrm{Km}}_{\mathrm{("Effector\;translocation")}} \, + \, {\mathrm{[E]}} }  \, + \, \frac {{\mathrm{Km}}_{\mathrm{("Effector\;translocation")}} \, \cdot \, {\mathrm{[Callose]}} } {{\mathrm{Ki}}_{\mathrm{("Effector\;translocation")}} } } \right) } \\ 
+ && \\ 
+ \; && \;  { \, + \, {V}_{\mathrm{Apoplast}} \, \cdot \, \left( {{\mathrm{k1}}_{\mathrm{("Effector\;production")}} \, \cdot \, {\mathrm{[Path]}} } \right) } \\ 
+ && \\ 
+\end{array}
+$$

@@ -1,0 +1,32 @@
+To reference this data/software in publications, please cite the following:
+
+1. Pritchard L, Birch PRJ. 2014. The zigzag model of plant–microbe interactions: is it time to move on? Molecular Plant Pathology 15(9):865-870. doi:10.1111/mpp.12210
+
+@article {MPP:MPP12210,
+author = {Pritchard, Leighton and Birch, Paul R. J.},
+title = {The zigzag model of plant–microbe interactions: is it time to move on?},
+journal = {Molecular Plant Pathology},
+volume = {15},
+number = {9},
+issn = {1364-3703},
+url = {http://dx.doi.org/10.1111/mpp.12210},
+doi = {10.1111/mpp.12210},
+pages = {865--870},
+year = {2014},
+}
+
+TY  - JOUR
+AU  - Pritchard, Leighton
+AU  - Birch, Paul R. J.
+TI  - The zigzag model of plant–microbe interactions: is it time to move on?
+JO  - Molecular Plant Pathology
+JA  - Molecular Plant Pathology
+VL  - 15
+IS  - 9
+SN  - 1364-3703
+UR  - http://dx.doi.org/10.1111/mpp.12210
+DO  - 10.1111/mpp.12210
+SP  - 865
+EP  - 870
+PY  - 2014
+ER  - 
